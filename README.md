@@ -20,3 +20,17 @@ Outdoor E to B | [dataset\_vri4wd\_ufpr-map\_20230901s001eb.bag](https://ufprbr0
 
 Indoor B to F | [dataset\_vri4wd\_ufpr-map\_20230901s001bf.bag](https://ufprbr0-my.sharepoint.com/:u:/r/personal/vrilab_ufpr_br/Documents/dataset_vri4wd_ufpr-map/dataset_vri4wd_ufpr-map_20230901s001bf.bag) - Sept 1, 2023
 
+## sensors
+
+ROS TOPICS
+
+Encoder | _publisher_ **/left\_encoder**, **/right\_encoder**  
+Accelerometer (IMU) | _publisher_ **/imu/data**  
+Digital Compass (IMU) | _publisher_ **/imu/data**  
+GPS | _publisher_ **/gps\_neo8m**  
+Gyroscope (IMU) | _publisher_ **/imu/data**  
+Infrared | _publisher_ **/ir1\_sharp**, **/ir2\_sharp**, **/ir3\_sharp**    
+Ultrasound | _publisher_ **/us1\_urm**, **/us3\_urm**, **/us5\_urm**  
+Vision | _publisher_ **/camera/depth/image**, **/camera/rgb/image\_color**, **/camera/rgb/image\_mono**  
+Laser Scanner | _publisher_ **/scan**  
+RF Sensor (WLAN) | _publisher_ **/rssi1\_wlan**, **/rssi2\_wlan**, **/rssi3\_wlan**, **/rssi4\_wlan**, **/rssi5\_wlan**, **/rssi6\_wlan**, **/rssi7\_wlan**, **/rssi8\_wlan**, **/rssi9\_wlan**, **/rssi10\_wlan**, **/rssi11\_wlan**, **/rssi12\_wlan**, **/rssi13\_wlan**, **/rssi14\_wlan**, **/rssi15\_wlan**, **/rssi16\_wlan**, **/rssi17\_wlan**, **/rssi18\_wlan**, **/rssi19\_wlan**  
