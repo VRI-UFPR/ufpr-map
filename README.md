@@ -34,3 +34,9 @@ Ultrasound | _publisher_ **/us1\_urm**, **/us3\_urm**, **/us5\_urm**
 Vision | _publisher_ **/camera/depth/image**, **/camera/rgb/image\_color**, **/camera/rgb/image\_mono**  
 Laser Scanner | _publisher_ **/scan**  
 RF Sensor (WLAN) | _publisher_ **/rssi1\_wlan**, **/rssi2\_wlan**, **/rssi3\_wlan**, **/rssi4\_wlan**, **/rssi5\_wlan**, **/rssi6\_wlan**, **/rssi7\_wlan**, **/rssi8\_wlan**, **/rssi9\_wlan**, **/rssi10\_wlan**, **/rssi11\_wlan**, **/rssi12\_wlan**, **/rssi13\_wlan**, **/rssi14\_wlan**, **/rssi15\_wlan**, **/rssi16\_wlan**, **/rssi17\_wlan**, **/rssi18\_wlan**, **/rssi19\_wlan**  
+
+## vri4wd
+
+VRI4WD MOBILE ROBOT PLATFORM
+
+The [VRI4WD mobile robot](https://github.com/VRI-UFPR/vri4wd) was developed to apply multi-sensors and locomotion in indoor and outdoor environments.
