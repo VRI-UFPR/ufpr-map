@@ -20,6 +20,8 @@ Outdoor E to B | [dataset\_vri4wd\_ufpr-map\_20230901s001eb.bag](https://ufprbr0
 
 Indoor B to F | [dataset\_vri4wd\_ufpr-map\_20230901s001bf.bag](https://ufprbr0-my.sharepoint.com/:u:/r/personal/vrilab_ufpr_br/Documents/dataset_vri4wd_ufpr-map/dataset_vri4wd_ufpr-map_20230901s001bf.bag) - Sept 1, 2023
 
+![Paths on Google Earth | VRI4WD UFPR-MAP Dataset](https://github.com/VRI-UFPR/ufpr-map/blob/main/path_googleEarth_vri4wd_ufpr-map_2023.png)
+
 ## sensors
 
 ROS TOPICS
