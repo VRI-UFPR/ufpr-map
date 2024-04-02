@@ -39,7 +39,7 @@ RF Sensor (WLAN) | _publisher_ **/rssi1\_wlan**, **/rssi2\_wlan**, **/rssi3\_wla
 
 ## rosbag
 
-ROSbag is a set of tools for recording from and playing back to ROS topics. It is intended to be high-performance and avoids deserialization and reserialization of the messages.
+ROSbag is a set of tools for recording from and playing back to ROS topics.
 
 $ rosbag play dataset_vri4wd_ufpr-map_20230830s001ab.bag 
 
