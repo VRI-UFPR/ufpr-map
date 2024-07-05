@@ -8,9 +8,9 @@ This work contributed to creating a dataset with coordinates of points obtained 
 
 ## dataset
 
-Indoor A to B | [dataset\_vri4wd\_ufpr-map\_20230830s001ab.bag](https://ufprbr0-my.sharepoint.com/:u:/r/personal/vrilab_ufpr_br/Documents/dataset_vri4wd_ufpr-map/dataset_vri4wd_ufpr-map_20230830s001ab.bag) - Aug 30, 2023 
+Indoor A to B | [dataset\_vri4wd\_ufpr-map\_20230830s001ab.bag](https://ufprbr0-my.sharepoint.com/:u:/g/personal/vrilab_ufpr_br/Eco5U3yqVSRHg_J4jI-OL-UBGIADWMPkpIpNDOUW4X2cpw?e=CTX3q3) - Aug 30, 2023 
 
-Outdoor B to C | [dataset\_vri4wd\_ufpr-map\_20230830s001bc.bag](https://ufprbr0-my.sharepoint.com/:u:/r/personal/vrilab_ufpr_br/Documents/dataset_vri4wd_ufpr-map/dataset_vri4wd_ufpr-map_20230830s001bc.bag) - Aug 30, 2023
+Outdoor B to C | [dataset\_vri4wd\_ufpr-map\_20230830s001bc.bag](https://ufprbr0-my.sharepoint.com/:u:/g/personal/vrilab_ufpr_br/EXn7qFX1JyBBlVAaHKwaCEoBcPRdI8_j8kTimWN9dbMCig?e=mZO755) - Aug 30, 2023
 
 Outdoor C to D | [dataset\_vri4wd\_ufpr-map\_20230830s001cd.bag](https://ufprbr0-my.sharepoint.com/:u:/r/personal/vrilab_ufpr_br/Documents/dataset_vri4wd_ufpr-map/dataset_vri4wd_ufpr-map_20230830s001cd.bag) - Aug 30, 2023
 
