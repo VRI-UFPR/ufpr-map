@@ -26,7 +26,7 @@ Indoor B to F | [dataset\_vri4wd\_ufpr-map\_20230901s001bf.bag](https://ufprbr0-
 
 ROS TOPICS
 
-Encoder | _publisher_ **/left\_encoder**, **/right\_encoder**  
+Encoder | _publisher_ **/left\_encoder**, **/right\_encoder** (Type: std_msgs/Int16)  
 Accelerometer (IMU) | _publisher_ **/imu/data**  
 Digital Compass (IMU) | _publisher_ **/imu/data**  
 GPS | _publisher_ **/gps\_neo8m**  
