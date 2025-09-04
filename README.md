@@ -8,6 +8,14 @@ This work contributed to creating a dataset with coordinates of points obtained 
 
 ## dataset
 
+### mapping 2025, RSSI data is unavailable in files pathAB and pathBF.
+
+Indoor A to B | [pathAB\_vri4wd\_ufpr-map\_2025-03-20-18-07-27.bag](https://ufprbr0-my.sharepoint.com/:u:/g/personal/vrilab_ufpr_br/ESg6SnZqU8pFkyvaBi1KBu8BZrHp76xThmJRhg8VxKDaTg?e=iOlt13) - Mar 20, 2025 
+
+
+
+### mapping 2023, encoder pulses with count discontinuities.
+
 Indoor A to B | [dataset\_vri4wd\_ufpr-map\_20230830s001ab.bag](https://ufprbr0-my.sharepoint.com/:u:/g/personal/vrilab_ufpr_br/Eco5U3yqVSRHg_J4jI-OL-UBGIADWMPkpIpNDOUW4X2cpw?e=CTX3q3) - Aug 30, 2023 
 
 Outdoor B to C | [dataset\_vri4wd\_ufpr-map\_20230830s001bc.bag](https://ufprbr0-my.sharepoint.com/:u:/g/personal/vrilab_ufpr_br/EXn7qFX1JyBBlVAaHKwaCEoBcPRdI8_j8kTimWN9dbMCig?e=mZO755) - Aug 30, 2023
