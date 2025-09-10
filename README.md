@@ -8,8 +8,6 @@ This work contributed to creating a dataset with coordinates of points obtained 
 
 ## dataset
 
-
-
 ![Paths on Google Earth | VRI4WD UFPR-MAP Dataset](https://github.com/VRI-UFPR/ufpr-map/blob/main/path_googleEarth_vri4wd_ufpr-map_2023.png)
 
 ### mapping 2025
@@ -46,9 +44,11 @@ Indoor B to F | [dataset\_vri4wd\_ufpr-map\_20230901s001bf.bag](https://ufprbr0-
 
 *encoder pulses with count discontinuities.
 
-## sensors
 
-ROS TOPICS
+
+## ROS topics
+
+### sensors
 
 Encoder | _publisher_ **/left\_encoder**, **/right\_encoder** (std_msgs/Int16)  
 Accelerometer (IMU) | _publisher_ **/imu/data** (sensor_msgs/Imu)  
@@ -57,10 +57,18 @@ GPS | _publisher_ **/gps\_neo8m** (sensor_msgs/NavSatFix)
 Gyroscope (IMU) | _publisher_ **/imu/data** (sensor_msgs/Imu)  
 Infrared | _publisher_ **/ir1\_sharp**, **/ir2\_sharp**, **/ir3\_sharp** (sensor_msgs/Range)    
 Ultrasound | _publisher_ **/us1\_urm**, **/us3\_urm**, **/us5\_urm** (sensor_msgs/Range)  
-Vision | _publisher_ **/camera/depth/image**, **/camera/rgb/image\_color**, **/camera/rgb/image\_mono** (sensor_msgs/Image)  
+Vision | _publisher_ **/camera/depth/image**, **/camera/rgb/image\_color**, **/camera/rgb/image\_mono** (sensor_msgs/Image) OR **/camera_depth**, **/camera_rgb** (sensor_msgs/Image)  
 Laser Scanner | _publisher_ **/scan** (sensor_msgs/LaserScan)  
 RF Sensor (WLAN) | _publisher_ **/rssi1\_wlan**, **/rssi2\_wlan**, **/rssi3\_wlan**, **/rssi4\_wlan**, **/rssi5\_wlan**, **/rssi6\_wlan**, **/rssi7\_wlan**, **/rssi8\_wlan**, **/rssi9\_wlan**, **/rssi10\_wlan**, **/rssi11\_wlan**, **/rssi12\_wlan**, **/rssi13\_wlan**, **/rssi14\_wlan**, **/rssi15\_wlan**, **/rssi16\_wlan**, **/rssi17\_wlan**, **/rssi18\_wlan**, **/rssi19\_wlan** (std_msgs/Int8)
-  
+
+### localization
+
+Latitude and Longitude Points | _publisher_ **/landmark_vri4wd_latlon** (geometry_msgs/Point)  
+UFPR-MAP Points | _publisher_ **/point_ufprmap** (std_msgs/Int8)  
+
+### locomotion
+
+Velocity Commands To a Robot | _subscriber_ **/cmd_vel** (geometry_msgs/Twist)
 
 ## rosbag
 
