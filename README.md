@@ -42,24 +42,33 @@ This work contributed to creating a dataset with coordinates of points obtained 
 
 ## 2. ROS Topics
 
-| Name                  | Topic Message                                                            |
-| --------------------- | ------------------------------------------------------------------------ | 
-| **2.1. Sensors**      |                                                                          |
-| Encoder               | _publisher_ **/left\_encoder**, **/right\_encoder** (std_msgs/Int16)     |
-| Accelerometer (IMU)   | _publisher_ **/imu/data** (sensor_msgs/Imu)                              |
-| Digital Compass (IMU) | _publisher_ **/imu/data** (sensor_msgs/Imu)                              |
-| GPS                   | _publisher_ **/gps\_neo8m** (sensor_msgs/NavSatFix)                      |
-| Gyroscope (IMU)       | _publisher_ **/imu/data** (sensor_msgs/Imu)                              |
-| Infrared              | _publisher_ **/ir1\_sharp**, **/ir2\_sharp**, **/ir3\_sharp** (sensor_msgs/Range) |    
-| Ultrasound            | _publisher_ **/us1\_urm**, **/us3\_urm**, **/us5\_urm** (sensor_msgs/Range)       |
-| Vision                | _publisher_ **/camera/depth/image**, **/camera/rgb/image\_color**, **/camera/rgb/image\_mono** (sensor_msgs/Image) OR **/camera_depth**, **/camera_rgb** (sensor_msgs/Image) |
-|    Laser Scanner | _publisher_ **/scan** (sensor_msgs/LaserScan) |  
-| RF Sensor (WLAN) | _publisher_ **/rssi1\_wlan**, **/rssi2\_wlan**, **/rssi3\_wlan**, **/rssi4\_wlan**, **/rssi5\_wlan**, **/rssi6\_wlan**, **/rssi7\_wlan**, **/rssi8\_wlan**, **/rssi9\_wlan**, **/rssi10\_wlan**, **/rssi11\_wlan**, **/rssi12\_wlan**, **/rssi13\_wlan**, **/rssi14\_wlan**, **/rssi15\_wlan**, **/rssi16\_wlan**, **/rssi17\_wlan**, **/rssi18\_wlan**, **/rssi19\_wlan** (std_msgs/Int8) |
-| **2.2. Localization**         |                                                                  |
-| Latitude and Longitude Points | _publisher_ **/landmark_vri4wd_latlon** (geometry_msgs/Point)    |
-| UFPR-MAP Points               | _publisher_ **/point_ufprmap** (std_msgs/Int8)                   |
-| **2.3. Locomotion**           |                                                                  |
-| Velocity Commands To a Robot  | _subscriber_ **/cmd_vel** (geometry_msgs/Twist)                  |
+### 2.1. Sensores
+
+| Name                  | Topic Type                          | Topic Name                                                 |
+| --------------------- | ----------------------------------- | ---------------------------------------------------------- | 
+| Encoder               | _publisher_ : std_msgs/Int16        | **/left\_encoder**, **/right\_encoder**                    |
+| Accelerometer (IMU)   | _publisher_ : sensor_msgs/Imu       | **/imu/data**                                              |
+| Digital Compass (IMU) | _publisher_ : sensor_msgs/Imu       | **/imu/data**                                              |
+| GPS                   | _publisher_ : sensor_msgs/NavSatFix | **/gps\_neo8m**                                            |
+| Gyroscope (IMU)       | _publisher_ : sensor_msgs/Imu       | **/imu/data**                                              |
+| Infrared              | _publisher_ : sensor_msgs/Range     | **/ir1\_sharp**, **/ir2\_sharp**, **/ir3\_sharp**          |    
+| Ultrasound            | _publisher_ : sensor_msgs/Range     | **/us1\_urm**, **/us3\_urm**, **/us5\_urm**                |
+| Vision                | _publisher_ : sensor_msgs/Image     | **/camera/depth/image**, **/camera/rgb/image\_color**, **/camera/rgb/image\_mono** OR **/camera_depth**, **/camera_rgb** |
+| Laser Scanner         | _publisher_                         | **/scan**                                                  |  
+| RF Sensor (WLAN)      | _publisher_ : std_msgs/Int8         | **/rssi1\_wlan**, **/rssi2\_wlan**, **/rssi3\_wlan**, **/rssi4\_wlan**, **/rssi5\_wlan**, **/rssi6\_wlan**, **/rssi7\_wlan**, **/rssi8\_wlan**, **/rssi9\_wlan**, **/rssi10\_wlan**, **/rssi11\_wlan**, **/rssi12\_wlan**, **/rssi13\_wlan**, **/rssi14\_wlan**, **/rssi15\_wlan**, **/rssi16\_wlan**, **/rssi17\_wlan**, **/rssi18\_wlan**, **/rssi19\_wlan** |
+
+### 2.2. Localization
+
+| Name                          | Topic Type                          | Topic Name                                                 |
+| ----------------------------- | ----------------------------------- | ---------------------------------------------------------- |
+| Latitude and Longitude Points | _publisher_ : geometry_msgs/Point   | **/landmark_vri4wd_latlon**                                |
+| UFPR-MAP Points               | _publisher_ : std_msgs/Int8         | **/point_ufprmap**                                         |
+
+### 2.3. Locomotion
+
+| Name                          | Topic Type                          | Topic Name                                                 |
+| ----------------------------- | ----------------------------------- | ---------------------------------------------------------- |
+| Velocity Commands To a Robot  | _subscriber_ : geometry_msgs/Twist  | **/cmd_vel**                                               |
 
 
 ## 3. Rosbag for ROS 1
