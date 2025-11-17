@@ -60,7 +60,7 @@ This work contributed to creating a dataset with coordinates of points obtained 
 | UFPR-MAP Points               | _publisher_ **/point_ufprmap** (std_msgs/Int8)                   |
 | **2.3. Locomotion**           |                                                                  |
 | Velocity Commands To a Robot  | _subscriber_ **/cmd_vel** (geometry_msgs/Twist)                  |
- | 
+
 
 ## 3. Rosbag for ROS 1
 
