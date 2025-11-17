@@ -86,8 +86,6 @@ pip3 install rosbags>=0.9.11
 rosbags-convert --src pathAB_vri4wd_ufpr-map_2025-03-20-18-07-27.bag --dst pathAB --dst-version 5
 ```
 
-## 5. vri4wd
-
-VRI4WD MOBILE ROBOT PLATFORM
+## 5. VRI4WD Mobile Robot Plataform
 
 The [VRI4WD mobile robot](https://github.com/VRI-UFPR/vri4wd) was developed to apply multi-sensors and locomotion in indoor and outdoor environments.
